@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Finboard</title>
+<meta name="description" content="How Finboard handles your data: financial data stays encrypted on your device.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>/* The app passes its own theme (?theme=dark|light); otherwise the system setting decides */
+try{var t=new URLSearchParams(location.search).get("theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<header class="hero">
+<div class="hero-inner">
+<img src="icon.png" alt="" width="64" height="64" class="logo">
+<div>
+<p class="wordmark">Finboard</p>
+<h1 data-i18n>Privacy Policy</h1>
+</div>
+</div>
+</header>
+<main>
+<div class="tabs" role="tablist" aria-label="Language"><button type="button" role="tab" data-lang="en" aria-selected="false">EN</button><button type="button" role="tab" data-lang="tr" aria-selected="false">TR</button><button type="button" role="tab" data-lang="de" aria-selected="false">DE</button></div>
+
+<section class="card page" data-lang="en" lang="en" hidden>
+<p class="updated">Last updated: November 12, 2026</p>
+<ul class="summary">
+<li>Your financial data stays on your phone, in an encrypted database.</li>
+<li>No account, no bank connection, no ads, and we never sell data.</li>
+<li>We only receive usage statistics and crash reports without any amounts or notes, purchase records, and messages you choose to send us.</li>
+</ul>
+
+<h3>Who we are</h3>
+<p>Finboard is a personal budgeting app for Android and iOS (app ID <code>com.aral.finboard</code>), made by Aral Benli, an independent developer. In this policy "we" means the developer. Contact: <a href="mailto:support@aralbenli.com">support@aralbenli.com</a>.</p>
+
+<h3>1. Data that stays on your device</h3>
+<ul>
+<li>Everything you enter: income, expenses, fixed costs, cards, installments, funds, assets, ledgers, categories, notes, reports and settings.</li>
+<li>Receipt and document photos you attach. They are shrunk on the device and stored inside the same database.</li>
+<li>The database is encrypted: on Android with SQLCipher, on iOS with the system's Data Protection. Android's automatic cloud backup is turned off for this app.</li>
+<li>Finboard has no server and no user account and does not connect to your bank. We cannot see this data, and deleting the app deletes it.</li>
+</ul>
+
+<h3>2. Backups</h3>
+<p>When you create a backup, the app writes one file encrypted with a password you choose (AES-256, the key is derived from your password). You decide where the file goes, for example iCloud Drive, Google Drive or your device. We never receive it and cannot open it. If you forget the password, the backup cannot be restored.</p>
+
+<h3>3. App lock</h3>
+<p>The optional PIN and biometric lock work entirely on the device. Fingerprint and face data are handled by your phone's operating system; the app never sees them.</p>
+
+<h3>4. Usage statistics and crash reports (Google Firebase)</h3>
+<ul>
+<li><strong>Firebase Analytics</strong> tells us which screens and features are used, for example that a report was opened, a backup was saved or the simple view was chosen. It also sends the app language, the country and home currency you picked in Settings, your plan (free or Premium) and how many records of a type you have, only as ranges such as "4–6".</li>
+<li><strong>Firebase Crashlytics</strong> sends a crash report when the app crashes: the error, the app version, device model and operating system.</li>
+<li>Both use a random app-instance ID created by Firebase. They never receive amounts (not even ranges), titles, notes, category names or your lock code.</li>
+<li>We do not use the advertising ID, and ad personalization is turned off.</li>
+<li>Google stores this data on our behalf. Analytics data is kept for at most 14 months and crash reports for 90 days.</li>
+</ul>
+
+<h3>5. Purchases (RevenueCat, Google Play, App Store)</h3>
+<p>Premium is sold through Google Play or the App Store, which process the payment. We never see your card details. RevenueCat manages the subscription status for us. It receives your purchase history (product, date, price, country of the store account) and a random app user ID that is not linked to your name or email.</p>
+
+<h3>6. Feedback you send</h3>
+<p>If you use Settings → Feedback, the app sends your message to our support server (<code>feedback.aralbenli.com</code>, running on Cloudflare), which emails it to us. It contains:</p>
+<ul>
+<li>your message, and your email address only if you type one so we can reply;</li>
+<li>app version, platform, operating system, device model, app language, the country chosen in Settings, whether you have Premium and your RevenueCat app user ID, so we can check a purchase problem;</li>
+<li>the server also estimates your country from your IP address.</li>
+</ul>
+<p>Feedback never includes your financial data. We keep these emails only as long as needed to answer you, and delete them on request.</p>
+
+<h3>7. Exchange rates and prices</h3>
+<p>To value foreign-currency records and assets, the app downloads public rates from the European Central Bank via Frankfurter (<code>api.frankfurter.dev</code>) and from Truncgil Finans (<code>finans.truncgil.com</code>). The app sends no personal data with these requests. As with any internet request, these services can see your IP address.</p>
+
+<h3>8. Permissions</h3>
+<ul>
+<li><strong>Notifications:</strong> reminders you set up, scheduled on your device.</li>
+<li><strong>Face ID / biometrics:</strong> only for the optional app lock.</li>
+<li><strong>Camera and photos:</strong> only when you attach a receipt. On Android and iOS the system photo picker is used, so the app sees only the photos you pick.</li>
+<li>Finboard does not ask for location, contacts, SMS or access to other apps' notifications.</li>
+</ul>
+
+<h3>9. No ads, no selling, no tracking</h3>
+<p>Finboard shows no ads. We do not sell or rent your data and do not use it to track you across other apps or websites.</p>
+
+<h3>10. Service providers</h3>
+<div class="table-wrap"><table>
+<tr><th>Service</th><th>Purpose</th><th>Privacy policy</th></tr>
+<tr><td>Google Firebase (Analytics, Crashlytics)</td><td>Usage statistics, crash reports</td><td><a href="https://firebase.google.com/support/privacy">firebase.google.com</a></td></tr>
+<tr><td>RevenueCat</td><td>Subscription status</td><td><a href="https://www.revenuecat.com/privacy">revenuecat.com</a></td></tr>
+<tr><td>Cloudflare</td><td>Feedback server</td><td><a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com</a></td></tr>
+<tr><td>Google Play / Apple App Store</td><td>Payments</td><td><a href="https://policies.google.com/privacy">Google</a> · <a href="https://www.apple.com/legal/privacy/">Apple</a></td></tr>
+<tr><td>Frankfurter (ECB rates), Truncgil Finans</td><td>Public exchange rates and prices</td><td><a href="https://frankfurter.dev">frankfurter.dev</a> · <a href="https://finans.truncgil.com">truncgil.com</a></td></tr>
+</table></div>
+
+<h3>11. Legal basis (EEA, UK)</h3>
+<p>We process usage statistics and crash reports on the basis of our legitimate interest in keeping the app working and improving it, without any financial content. We process purchase data to provide Premium, and feedback to answer you.</p>
+
+<h3>12. Your rights</h3>
+<p>You can ask us for access to, correction of or deletion of data we hold about you, or object to its processing, by emailing <a href="mailto:support@aralbenli.com">support@aralbenli.com</a>. To find your records, include your RevenueCat ID (shown in the feedback details) or the email you wrote from. Deleting the app removes all data stored on the device. You may also complain to your data protection authority.</p>
+
+<h3>13. Children</h3>
+<p>Finboard is not directed at children under 13 (16 in the EEA), and we do not knowingly collect their data.</p>
+
+<h3>14. Changes</h3>
+<p>We will update this page when the app's data handling changes and show the new date at the top.</p>
+
+<h3>Contact</h3>
+<p>Aral Benli · <a href="mailto:support@aralbenli.com">support@aralbenli.com</a></p>
+</section>
+
+<section class="card page" data-lang="tr" lang="tr" hidden>
+<p class="updated">Son güncelleme: 12 Kasım 2026</p>
+<ul class="summary">
+<li>Finansal verileriniz telefonunuzda, şifreli bir veritabanında kalır.</li>
+<li>Hesap yok, banka bağlantısı yok, reklam yok; verilerinizi asla satmayız.</li>
+<li>Bize yalnızca tutar ve not içermeyen kullanım istatistikleri ile çökme raporları, satın alma kayıtları ve sizin gönderdiğiniz mesajlar ulaşır.</li>
+</ul>
+
+<h3>Biz kimiz</h3>
+<p>Finboard, Android ve iOS için bir kişisel bütçe uygulamasıdır (uygulama kimliği <code>com.aral.finboard</code>). Bağımsız geliştirici Aral Benli tarafından yapılmıştır. Bu politikada "biz" geliştiriciyi ifade eder. İletişim: <a href="mailto:support@aralbenli.com">support@aralbenli.com</a>.</p>
+
+<h3>1. Cihazınızda kalan veriler</h3>
+<ul>
+<li>Girdiğiniz her şey: gelirler, giderler, sabit giderler, kartlar, taksitler, fonlar, varlıklar, defterler, kategoriler, notlar, raporlar ve ayarlar.</li>
+<li>Eklediğiniz fiş ve belge fotoğrafları. Cihazda küçültülür ve aynı veritabanında saklanır.</li>
+<li>Veritabanı şifrelidir: Android'de SQLCipher, iOS'ta sistemin Veri Koruması (Data Protection) ile. Bu uygulama için Android'in otomatik bulut yedeklemesi kapalıdır.</li>
+<li>Finboard'un sunucusu ve kullanıcı hesabı yoktur, bankanıza bağlanmaz. Bu verileri göremeyiz; uygulamayı silmek verileri de siler.</li>
+</ul>
+
+<h3>2. Yedekler</h3>
+<p>Yedek aldığınızda uygulama, seçtiğiniz bir parolayla şifrelenmiş tek bir dosya oluşturur (AES-256, anahtar parolanızdan türetilir). Dosyanın nereye kaydedileceğine siz karar verirsiniz, örneğin iCloud Drive, Google Drive ya da cihazınız. Dosya bize hiç ulaşmaz ve biz açamayız. Parolayı unutursanız yedek geri yüklenemez.</p>
+
+<h3>3. Uygulama kilidi</h3>
+<p>İsteğe bağlı PIN ve biyometrik kilit tamamen cihazda çalışır. Parmak izi ve yüz verileri telefonunuzun işletim sistemi tarafından işlenir; uygulama bunları hiç görmez.</p>
+
+<h3>4. Kullanım istatistikleri ve çökme raporları (Google Firebase)</h3>
+<ul>
+<li><strong>Firebase Analytics</strong> hangi ekran ve özelliklerin kullanıldığını gösterir, örneğin bir raporun açılması, yedeğin kaydedilmesi ya da sade görünümün seçilmesi. Ayrıca uygulama dilini, Ayarlar'da seçtiğiniz ülke ve ana para birimini, planınızı (ücretsiz ya da Premium) ve bir türden kaç kaydınız olduğunu yalnızca "4–6" gibi aralıklarla gönderir.</li>
+<li><strong>Firebase Crashlytics</strong> uygulama çöktüğünde bir çökme raporu gönderir: hata, uygulama sürümü, cihaz modeli ve işletim sistemi.</li>
+<li>İkisi de Firebase'in oluşturduğu rastgele bir uygulama kimliği kullanır. Tutarları (aralık olarak bile), başlıkları, notları, kategori adlarını ya da kilit kodunuzu asla almazlar.</li>
+<li>Reklam kimliğini kullanmayız, reklam kişiselleştirmesi kapalıdır.</li>
+<li>Bu verileri Google bizim adımıza saklar. Analytics verileri en fazla 14 ay, çökme raporları 90 gün tutulur.</li>
+</ul>
+
+<h3>5. Satın almalar (RevenueCat, Google Play, App Store)</h3>
+<p>Premium, ödemeyi işleyen Google Play ya da App Store üzerinden satılır. Kart bilgilerinizi hiç görmeyiz. Abonelik durumunu bizim için RevenueCat yönetir. RevenueCat satın alma geçmişinizi (ürün, tarih, fiyat, mağaza hesabının ülkesi) ve adınıza ya da e-postanıza bağlı olmayan rastgele bir uygulama kullanıcı kimliğini alır.</p>
+
+<h3>6. Gönderdiğiniz geri bildirimler</h3>
+<p>Ayarlar → Geri bildirim'i kullanırsanız uygulama mesajınızı destek sunucumuza (<code>feedback.aralbenli.com</code>, Cloudflare üzerinde çalışır) gönderir; sunucu da bize e-postayla iletir. İçeriği:</p>
+<ul>
+<li>mesajınız; yanıt verebilmemiz için yalnızca siz yazarsanız e-posta adresiniz;</li>
+<li>uygulama sürümü, platform, işletim sistemi, cihaz modeli, uygulama dili, Ayarlar'da seçilen ülke, Premium olup olmadığınız ve bir satın alma sorununu kontrol edebilmemiz için RevenueCat uygulama kullanıcı kimliğiniz;</li>
+<li>sunucu ayrıca IP adresinizden ülkenizi tahmin eder.</li>
+</ul>
+<p>Geri bildirim hiçbir zaman finansal verilerinizi içermez. Bu e-postaları yalnızca size yanıt vermek için gereken süre boyunca saklar, talep ederseniz sileriz.</p>
+
+<h3>7. Döviz kurları ve fiyatlar</h3>
+<p>Döviz cinsinden kayıtları ve varlıkları değerlemek için uygulama, Avrupa Merkez Bankası'nın kurlarını Frankfurter (<code>api.frankfurter.dev</code>) üzerinden ve Truncgil Finans'tan (<code>finans.truncgil.com</code>) herkese açık olarak indirir. Bu isteklerle hiçbir kişisel veri gönderilmez. Her internet isteğinde olduğu gibi bu hizmetler IP adresinizi görebilir.</p>
+
+<h3>8. İzinler</h3>
+<ul>
+<li><strong>Bildirimler:</strong> kurduğunuz hatırlatıcılar, cihazınızda planlanır.</li>
+<li><strong>Face ID / biyometri:</strong> yalnızca isteğe bağlı uygulama kilidi için.</li>
+<li><strong>Kamera ve fotoğraflar:</strong> yalnızca fiş eklerken. Android ve iOS'ta sistemin fotoğraf seçicisi kullanılır, uygulama yalnızca seçtiğiniz fotoğrafları görür.</li>
+<li>Finboard konum, kişiler, SMS ya da diğer uygulamaların bildirimlerine erişim istemez.</li>
+</ul>
+
+<h3>9. Reklam yok, satış yok, izleme yok</h3>
+<p>Finboard reklam göstermez. Verilerinizi satmaz ya da kiralamayız; sizi başka uygulama ve sitelerde izlemek için kullanmayız.</p>
+
+<h3>10. Hizmet sağlayıcılar</h3>
+<div class="table-wrap"><table>
+<tr><th>Hizmet</th><th>Amaç</th><th>Gizlilik politikası</th></tr>
+<tr><td>Google Firebase (Analytics, Crashlytics)</td><td>Kullanım istatistikleri, çökme raporları</td><td><a href="https://firebase.google.com/support/privacy">firebase.google.com</a></td></tr>
+<tr><td>RevenueCat</td><td>Abonelik durumu</td><td><a href="https://www.revenuecat.com/privacy">revenuecat.com</a></td></tr>
+<tr><td>Cloudflare</td><td>Geri bildirim sunucusu</td><td><a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com</a></td></tr>
+<tr><td>Google Play / Apple App Store</td><td>Ödemeler</td><td><a href="https://policies.google.com/privacy">Google</a> · <a href="https://www.apple.com/legal/privacy/">Apple</a></td></tr>
+<tr><td>Frankfurter (AMB kurları), Truncgil Finans</td><td>Herkese açık kurlar ve fiyatlar</td><td><a href="https://frankfurter.dev">frankfurter.dev</a> · <a href="https://finans.truncgil.com">truncgil.com</a></td></tr>
+</table></div>
+
+<h3>11. Hukuki dayanak (KVKK, AEA, Birleşik Krallık)</h3>
+<p>Kullanım istatistiklerini ve çökme raporlarını, uygulamayı çalışır tutmak ve geliştirmek için meşru menfaatimize dayanarak, hiçbir finansal içerik olmadan işleriz. Satın alma verilerini Premium'u sağlamak, geri bildirimleri size yanıt vermek için işleriz.</p>
+
+<h3>12. Haklarınız</h3>
+<p>Hakkınızda tuttuğumuz verilere erişmek, düzeltilmesini ya da silinmesini istemek veya işlenmesine itiraz etmek için <a href="mailto:support@aralbenli.com">support@aralbenli.com</a> adresine yazabilirsiniz. Kayıtlarınızı bulabilmemiz için RevenueCat kimliğinizi (geri bildirim ayrıntılarında görünür) ya da yazdığınız e-posta adresini ekleyin. Uygulamayı silmek cihazdaki tüm verileri siler. Kişisel Verileri Koruma Kurulu'na ya da bulunduğunuz ülkenin veri koruma otoritesine şikâyette bulunabilirsiniz.</p>
+
+<h3>13. Çocuklar</h3>
+<p>Finboard 13 yaşından (AEA'da 16) küçük çocuklara yönelik değildir ve onların verilerini bilerek toplamayız.</p>
+
+<h3>14. Değişiklikler</h3>
+<p>Uygulamanın veri kullanımı değiştiğinde bu sayfayı güncelleriz ve yeni tarihi en üstte gösteririz.</p>
+
+<h3>İletişim</h3>
+<p>Aral Benli · <a href="mailto:support@aralbenli.com">support@aralbenli.com</a></p>
+</section>
+
+<section class="card page" data-lang="de" lang="de" hidden>
+<p class="updated">Zuletzt aktualisiert: 12. November 2026</p>
+<ul class="summary">
+<li>Ihre Finanzdaten bleiben auf Ihrem Telefon, in einer verschlüsselten Datenbank.</li>
+<li>Kein Konto, keine Bankverbindung, keine Werbung, und wir verkaufen niemals Daten.</li>
+<li>Wir erhalten nur Nutzungsstatistiken und Absturzberichte ohne Beträge oder Notizen, Kaufdaten und Nachrichten, die Sie uns selbst senden.</li>
+</ul>
+
+<h3>Wer wir sind</h3>
+<p>Finboard ist eine App für das persönliche Budget für Android und iOS (App-ID <code>com.aral.finboard</code>), entwickelt von Aral Benli, einem unabhängigen Entwickler. „Wir“ bezeichnet in dieser Erklärung den Entwickler. Kontakt: <a href="mailto:support@aralbenli.com">support@aralbenli.com</a>.</p>
+
+<h3>1. Daten, die auf Ihrem Gerät bleiben</h3>
+<ul>
+<li>Alles, was Sie eingeben: Einnahmen, Ausgaben, Fixkosten, Karten, Raten, Fonds, Vermögenswerte, Bücher, Kategorien, Notizen, Berichte und Einstellungen.</li>
+<li>Beleg- und Dokumentfotos, die Sie anhängen. Sie werden auf dem Gerät verkleinert und in derselben Datenbank gespeichert.</li>
+<li>Die Datenbank ist verschlüsselt: unter Android mit SQLCipher, unter iOS mit dem Datenschutz (Data Protection) des Systems. Die automatische Cloud-Sicherung von Android ist für diese App deaktiviert.</li>
+<li>Finboard hat keinen Server und kein Benutzerkonto und verbindet sich nicht mit Ihrer Bank. Wir können diese Daten nicht sehen; wenn Sie die App löschen, werden sie gelöscht.</li>
+</ul>
+
+<h3>2. Sicherungen</h3>
+<p>Wenn Sie eine Sicherung erstellen, schreibt die App eine Datei, die mit einem von Ihnen gewählten Passwort verschlüsselt ist (AES-256, der Schlüssel wird aus Ihrem Passwort abgeleitet). Sie entscheiden, wo die Datei gespeichert wird, zum Beispiel in iCloud Drive, Google Drive oder auf Ihrem Gerät. Wir erhalten sie nie und können sie nicht öffnen. Wenn Sie das Passwort vergessen, kann die Sicherung nicht wiederhergestellt werden.</p>
+
+<h3>3. App-Sperre</h3>
+<p>Die optionale PIN- und biometrische Sperre arbeitet vollständig auf dem Gerät. Fingerabdruck- und Gesichtsdaten verarbeitet das Betriebssystem Ihres Telefons; die App sieht sie nie.</p>
+
+<h3>4. Nutzungsstatistiken und Absturzberichte (Google Firebase)</h3>
+<ul>
+<li><strong>Firebase Analytics</strong> zeigt uns, welche Bildschirme und Funktionen genutzt werden, zum Beispiel dass ein Bericht geöffnet, eine Sicherung gespeichert oder die einfache Ansicht gewählt wurde. Außerdem werden die App-Sprache, das in den Einstellungen gewählte Land und die Hauptwährung, Ihr Tarif (kostenlos oder Premium) und die Anzahl Ihrer Einträge eines Typs gesendet, nur als Bereiche wie „4–6“.</li>
+<li><strong>Firebase Crashlytics</strong> sendet bei einem Absturz einen Absturzbericht: den Fehler, die App-Version, das Gerätemodell und das Betriebssystem.</li>
+<li>Beide verwenden eine zufällige App-Instanz-ID von Firebase. Sie erhalten nie Beträge (auch keine Bereiche), Titel, Notizen, Kategorienamen oder Ihren Sperrcode.</li>
+<li>Wir verwenden keine Werbe-ID, und die Personalisierung von Werbung ist deaktiviert.</li>
+<li>Google speichert diese Daten in unserem Auftrag. Analytics-Daten werden höchstens 14 Monate, Absturzberichte 90 Tage aufbewahrt.</li>
+</ul>
+
+<h3>5. Käufe (RevenueCat, Google Play, App Store)</h3>
+<p>Premium wird über Google Play oder den App Store verkauft, die die Zahlung abwickeln. Ihre Kartendaten sehen wir nie. RevenueCat verwaltet für uns den Abostatus und erhält Ihren Kaufverlauf (Produkt, Datum, Preis, Land des Store-Kontos) sowie eine zufällige App-Benutzer-ID, die nicht mit Ihrem Namen oder Ihrer E-Mail verknüpft ist.</p>
+
+<h3>6. Feedback, das Sie senden</h3>
+<p>Wenn Sie Einstellungen → Feedback verwenden, sendet die App Ihre Nachricht an unseren Support-Server (<code>feedback.aralbenli.com</code>, betrieben auf Cloudflare), der sie uns per E-Mail weiterleitet. Sie enthält:</p>
+<ul>
+<li>Ihre Nachricht und Ihre E-Mail-Adresse nur, wenn Sie eine eingeben, damit wir antworten können;</li>
+<li>App-Version, Plattform, Betriebssystem, Gerätemodell, App-Sprache, das in den Einstellungen gewählte Land, ob Sie Premium haben, und Ihre RevenueCat-App-Benutzer-ID, damit wir ein Kaufproblem prüfen können;</li>
+<li>der Server schätzt außerdem Ihr Land anhand Ihrer IP-Adresse.</li>
+</ul>
+<p>Feedback enthält nie Ihre Finanzdaten. Wir bewahren diese E-Mails nur so lange auf, wie es für die Antwort nötig ist, und löschen sie auf Anfrage.</p>
+
+<h3>7. Wechselkurse und Preise</h3>
+<p>Um Fremdwährungseinträge und Vermögenswerte zu bewerten, lädt die App öffentliche Kurse der Europäischen Zentralbank über Frankfurter (<code>api.frankfurter.dev</code>) und von Truncgil Finans (<code>finans.truncgil.com</code>) herunter. Dabei werden keine personenbezogenen Daten gesendet. Wie bei jeder Internetanfrage können diese Dienste Ihre IP-Adresse sehen.</p>
+
+<h3>8. Berechtigungen</h3>
+<ul>
+<li><strong>Benachrichtigungen:</strong> Erinnerungen, die Sie einrichten, werden auf Ihrem Gerät geplant.</li>
+<li><strong>Face ID / Biometrie:</strong> nur für die optionale App-Sperre.</li>
+<li><strong>Kamera und Fotos:</strong> nur wenn Sie einen Beleg anhängen. Unter Android und iOS wird die Fotoauswahl des Systems verwendet; die App sieht nur die Fotos, die Sie auswählen.</li>
+<li>Finboard fragt nicht nach Standort, Kontakten, SMS oder Zugriff auf Benachrichtigungen anderer Apps.</li>
+</ul>
+
+<h3>9. Keine Werbung, kein Verkauf, kein Tracking</h3>
+<p>Finboard zeigt keine Werbung. Wir verkaufen oder vermieten Ihre Daten nicht und nutzen sie nicht, um Sie in anderen Apps oder auf Websites zu verfolgen.</p>
+
+<h3>10. Dienstleister</h3>
+<div class="table-wrap"><table>
+<tr><th>Dienst</th><th>Zweck</th><th>Datenschutzerklärung</th></tr>
+<tr><td>Google Firebase (Analytics, Crashlytics)</td><td>Nutzungsstatistiken, Absturzberichte</td><td><a href="https://firebase.google.com/support/privacy">firebase.google.com</a></td></tr>
+<tr><td>RevenueCat</td><td>Abostatus</td><td><a href="https://www.revenuecat.com/privacy">revenuecat.com</a></td></tr>
+<tr><td>Cloudflare</td><td>Feedback-Server</td><td><a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com</a></td></tr>
+<tr><td>Google Play / Apple App Store</td><td>Zahlungen</td><td><a href="https://policies.google.com/privacy">Google</a> · <a href="https://www.apple.com/legal/privacy/">Apple</a></td></tr>
+<tr><td>Frankfurter (EZB-Kurse), Truncgil Finans</td><td>Öffentliche Kurse und Preise</td><td><a href="https://frankfurter.dev">frankfurter.dev</a> · <a href="https://finans.truncgil.com">truncgil.com</a></td></tr>
+</table></div>
+
+<h3>11. Rechtsgrundlage (EWR, Vereinigtes Königreich)</h3>
+<p>Nutzungsstatistiken und Absturzberichte verarbeiten wir auf Grundlage unseres berechtigten Interesses, die App funktionsfähig zu halten und zu verbessern, ohne finanzielle Inhalte (Art. 6 Abs. 1 lit. f DSGVO). Kaufdaten verarbeiten wir, um Premium bereitzustellen, Feedback, um Ihnen zu antworten.</p>
+
+<h3>12. Ihre Rechte</h3>
+<p>Sie können Auskunft, Berichtigung oder Löschung der Daten verlangen, die wir über Sie haben, oder der Verarbeitung widersprechen: per E-Mail an <a href="mailto:support@aralbenli.com">support@aralbenli.com</a>. Damit wir Ihre Daten finden, geben Sie Ihre RevenueCat-ID (in den Feedback-Details sichtbar) oder die E-Mail an, von der Sie geschrieben haben. Wenn Sie die App löschen, werden alle Daten auf dem Gerät gelöscht. Sie können sich auch bei Ihrer Datenschutzaufsichtsbehörde beschweren.</p>
+
+<h3>13. Kinder</h3>
+<p>Finboard richtet sich nicht an Kinder unter 13 Jahren (im EWR unter 16), und wir erheben wissentlich keine Daten von ihnen.</p>
+
+<h3>14. Änderungen</h3>
+<p>Wenn sich der Umgang der App mit Daten ändert, aktualisieren wir diese Seite und zeigen oben das neue Datum.</p>
+
+<h3>Kontakt</h3>
+<p>Aral Benli · <a href="mailto:support@aralbenli.com">support@aralbenli.com</a></p>
+</section>
+</main>
+<footer>
+<p>Finboard · <a href="mailto:support@aralbenli.com">support@aralbenli.com</a></p>
+<nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+</footer>
+<script>
+(function () {
+  var titles = {"en": "Privacy Policy", "tr": "Gizlilik Politikası", "de": "Datenschutzerklärung"};
+  var tabs = document.querySelectorAll('.tabs button');
+  var codes = Array.prototype.map.call(tabs, function (t) { return t.dataset.lang; });
+  function show(code) {
+    if (codes.indexOf(code) < 0) code = 'en';
+    tabs.forEach(function (t) { t.setAttribute('aria-selected', t.dataset.lang === code); });
+    document.querySelectorAll('[data-lang].page').forEach(function (s) { s.hidden = s.dataset.lang !== code; });
+    document.documentElement.lang = code;
+    document.querySelector('h1[data-i18n]').textContent = titles[code];
+  }
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () { history.replaceState(null, '', location.search + '#' + t.dataset.lang); show(t.dataset.lang); });
+  });
+  var hash = location.hash.slice(1);
+  var nav = (navigator.language || 'en').slice(0, 2).toLowerCase();
+  show(codes.indexOf(hash) >= 0 ? hash : nav);
+})();
+</script>
+</body>
+</html>
